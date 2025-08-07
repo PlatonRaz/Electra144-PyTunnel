@@ -1,29 +1,18 @@
-# Electra 143-PyTunnel
+# Electra 144-PyTunnel
 
-**Electra 143-PyTunnel** is a Python-based implementation of steady-state thermal rating calculations for underground cable tunnels. The methodology is based on `Electra No. 143 (CIGRÉ, 1992)`. 
+## Introduction
 
-- This tool performs numerical simulations and visualisation to support engineering analysis of tunnel heat transfer performance.
-- This is an independent computational implementation and is not affiliated with or endorsed by CIGRE or the authors of Electra 143.
+**Electra 144-PyTunnel** is a Python-based implementation of the steady-state thermal rating calculations for underground cable tunnels. The methodology is based on the **Electra No. 144** technical reference (CIGRÉ, 1992). This tool models heat transfer in a circular tunnel environment and performs numerical simulations using an iterative convergence approach.
 
-# Features
 
-- Iterative calculation of thermal tunnel performance based on tunnel length and air velocity
+- This tool performs a numerical steady-state simulation and visualisation to support engineering analysis of tunnel heat transfer performance.
+- This is an independent computational implementation and is not affiliated with or endorsed by CIGRE or the authors of Electra 144.
+
+## Features
+
+- Iterative steady-state calculation of thermal tunnel performance against tunnel length or air velocity
 - Graphical User Interface (GUI) for input control and result display
-- Automated tabular and graphical output using a modified version of `pandastable`
-- Modular structure for constants, cable configuration, and numerical routines
-
-# Repository Structure
-
-Electra143-PyTunnel/
-│
-├── main.py                # Entry point (GUI + simulation triggers)
-├── calculate.py           # Core numerical functions
-├── constants.py           # Physical constants and parameters
-├── cables.py              # Default cable configurations
-├── modified_pandastable/  # Patched pandastable with plotting improvements
-├── LICENSE.md             # GPL v3 license
-├── README.md              
-
+- Automated graphical output using a modified version of `pandastable`
 
 ## Libraries used
 
@@ -32,9 +21,7 @@ Electra143-PyTunnel/
 - pandastable>=0.14.0
 
 
-**IMPORTANT Modified pandastable library**
-
-The `pandastable` library included in this project contains modified files (`plotting.py`, `core.py`) with improvements for plotted graphs, including:
+#### The `pandastable` library included in this project contains modified files (`plotting.py`, `core.py`) with improvements for plotted graphs, including:
 
 - Automatic creation of plotted graphs  
 - Higher resolution for the Y axis  
