@@ -1,8 +1,0 @@
-# pandastable.pyi
-
-import tkinter as tk
-import pandas as pd
-
-class Table:
-    def __init__(self, parent: tk.Widget, dataframe: pd.DataFrame, showtoolbar: bool = ..., showstatusbar: bool = ...) -> None: ...
-    def show(self) -> None: ...
