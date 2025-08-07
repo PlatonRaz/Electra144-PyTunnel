@@ -12,19 +12,6 @@
 - Automated tabular and graphical output using a modified version of `pandastable`
 - Modular structure for constants, cable configuration, and numerical routines
 
-# Repository Structure
-
-Electra143-PyTunnel/
-│
-├── main.py                # Entry point (GUI + simulation triggers)
-├── calculate.py           # Core numerical functions
-├── constants.py           # Physical constants and parameters
-├── cables.py              # Default cable configurations
-├── modified_pandastable/  # Patched pandastable with plotting improvements
-├── LICENSE.md             # GPL v3 license
-├── README.md              
-
-
 ## Libraries used
 
 - pandas>=2.3.1  
