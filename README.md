@@ -1,9 +1,9 @@
-# Electra 143-PyTunnel
+# Electra 144-PyTunnel
 
-**Electra 143-PyTunnel** is a Python-based implementation of steady-state thermal rating calculations for underground cable tunnels. The methodology is based on `Electra No. 143 (CIGRÉ, 1992)`. 
+**Electra 144-PyTunnel** is a Python-based implementation of steady-state thermal rating calculations for underground cable tunnels. The methodology is based on `Electra No. 144 (CIGRÉ, 1992)`. 
 
 - This tool performs numerical simulations and visualisation to support engineering analysis of tunnel heat transfer performance.
-- This is an independent computational implementation and is not affiliated with or endorsed by CIGRE or the authors of Electra 143.
+- This is an independent computational implementation and is not affiliated with or endorsed by CIGRE or the authors of Electra 144.
 
 # Features
 
