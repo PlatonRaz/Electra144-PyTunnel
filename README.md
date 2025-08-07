@@ -12,16 +12,14 @@
 - Automated tabular and graphical output using a modified version of `pandastable`
 - Modular structure for constants, cable configuration, and numerical routines
 
-## Libraries used
+# Libraries used
 
 - pandas>=2.3.1  
 - tkinter>=8.6  
 - pandastable>=0.14.0
 
 
-**IMPORTANT Modified pandastable library**
-
-The `pandastable` library included in this project contains modified files (`plotting.py`, `core.py`) with improvements for plotted graphs, including:
+#### The `pandastable` library included in this project contains modified files (`plotting.py`, `core.py`) with improvements for plotted graphs, including:
 
 - Automatic creation of plotted graphs  
 - Higher resolution for the Y axis  
