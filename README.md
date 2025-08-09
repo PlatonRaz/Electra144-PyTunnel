@@ -10,9 +10,16 @@
 
 ## Features
 
-- Iterative steady-state calculation of thermal tunnel performance against tunnel length or air velocity
-- Graphical User Interface (GUI) for input control and result display
-- Automated graphical output using a modified version of `pandastable`
+- Iterative steady-state calculation of thermal tunnel performance against tunnel length or air velocity using Electra 144.
+
+- Graphical User Interface (GUI) for input control and result display.
+
+<div align="center">
+  <img width="502" height="282" alt="image" src="https://github.com/user-attachments/assets/809323d6-84e3-4757-bee5-098a99b4bfc9" />
+</div>
+
+
+
 
 ## Libraries used
 
