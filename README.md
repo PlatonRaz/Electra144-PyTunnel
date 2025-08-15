@@ -17,6 +17,12 @@
 <div align="center">
   <img width="502" height="282" alt="image" src="https://github.com/user-attachments/assets/809323d6-84e3-4757-bee5-098a99b4bfc9" />
 </div>
+‎ 
+‎ 
+‎<div align="center">
+  <img width="733" height="516" alt="Screenshot 2025-08-15 155721" src="https://github.com/user-attachments/assets/40f45374-00b3-4d28-b913-d898378d1ab4" />
+</div>
+  
 
 
 
